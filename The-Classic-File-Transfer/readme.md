@@ -134,7 +134,7 @@ SHA-256 is used for file integrity verification:
 - The client calculates the checksum of the reassembled file
 - If checksums match, the transfer is considered successful
 
-## Example Log Output
+## Test Output
 
 ```
 2023-05-16 14:30:25 - FileTransferDemo - INFO - Starting demo mode...
@@ -161,7 +161,7 @@ SHA-256 is used for file integrity verification:
 2023-05-16 14:30:27 - FileTransferClient - INFO - Transfer Successful! Time taken: 1.23 seconds
 
 =================================
-🎉 FILE TRANSFER SUCCESSFUL! 🎉
+ FILE TRANSFER SUCCESSFUL! 
 =================================
 
 Original file: /tmp/test_file.dat
@@ -170,7 +170,7 @@ Size: 10240 bytes
 Received file: received_test_file.dat
 Size: 10240 bytes
 
-File sizes match ✅
+File sizes match !!
 ```
 
 ## Error Handling
