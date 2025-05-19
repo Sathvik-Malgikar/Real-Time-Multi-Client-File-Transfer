@@ -2,14 +2,14 @@
 
 This repository contains two different implementations of file transfer systems:
 
-## Multi-Client Reliable File Transfer
+## The Multi-Client Mayhem (Real-Time Multi-Client File Transfer and Verification)
 
-This folder (`multiclient`) contains a reliable file transfer system designed to handle multiple concurrent clients. It focuses on robustness through error testing, concurrency testing, performance evaluation, and boundary/stress testing.
+This folder (`The-Multi-Client-Mayhem`) contains a reliable file transfer system designed to handle multiple concurrent clients. It focuses on robustness through error testing, concurrency testing, performance evaluation, and boundary/stress testing.
 
-**[Go to the Multi-Client Readme](multiclient/README.md)**
+**[Go to the Multi-Client Readme](The-Multi-Client-Mayhem/README.md)**
 
 ## Real-Time File Transfer and Verification System
 
-This folder (`simplesharing`) contains a client-server file transfer system with a focus on real-time transfer and data integrity verification using checksums. It includes features like file chunking, sequence numbering, and optional error simulation.
+This folder (`The-Classic-File-Transfer`) contains a client-server file transfer system with a focus on real-time transfer and data integrity verification using checksums. It includes features like file chunking, sequence numbering, and optional error simulation.
 
-**[Go to the Simple Sharing Readme](simplesharing/README.md)**
+**[Go to the Classic File Sharing Readme](The-Classic-File-Transfer/README.md)**
